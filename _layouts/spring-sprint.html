@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+
+    <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="telephone" content="{{ site.resume_contact_telephone }}"/>
+      <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
+
+      <header class="page-header">
+
+        <!-- You can turn off the avatar in _config.yml by setting to false -->
+        {% if site.resume_avatar == 'true' %}
+        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        {% endif %}
+
+        <!-- Your name is defined in the _config.yml file -->
+        <h1 class="header-name" itemprop="name">Spring Sprint 2023: Blitz (3|2), Rated</h1>
+
+        <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
+        {% if site.display_header_contact_info == 'true' %}
+        <div class="header-contact-info">
+          <p>{{ site.resume_header_contact_info }}</p>
+        </div>
+        {% endif %}
+
+        <div class="title-bar no-print">
+
+          <!-- Your title is also defined in the _config.yml file -->
+          <h2 class="header-title" itemprop="jobTitle">April 19, 2023 at 5:07 PM EST</h2>
+
+      {% if site.resume_section_projects %}
+      <!-- begin Projects -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Projects</h2>
+        </header>
+
+        {% for project in site.data.projects %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
+          <p class="resume-item-copy">{{ project.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Projects -->
+      {% endif %}
+
+
+    </div>
+
+  </body>
+
+</html>
