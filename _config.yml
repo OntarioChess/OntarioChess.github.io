@@ -9,21 +9,27 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+resume_avatar:                  "false"
+resume_name:                    "OntarioChess"
+resume_title:                   "Founded April 2023"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           ""
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       "None"
+resume_contact_address:         "None"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     "Ontario, Canada • Link Go Here • email go here"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>OntarioChess is a dynamic and innovative chess organization that caters to chess enthusiasts in the province of Ontario and beyond. With a strong focus on online tournaments, OntarioChess brings the excitement of chess competitions to players of all levels, regardless of their location.
+
+As a modern chess organization, OntarioChess has embraced the advancements in technology and the growing popularity of online chess. They organize and host a wide variety of online tournaments that cater to different skill levels, from beginners to seasoned players. These tournaments provide a platform for chess enthusiasts to showcase their skills, challenge themselves, and compete with players from different regions, both within Ontario and outside of the province.
+
+The online tournaments organized by OntarioChess are known for their professionalism, fairness, and high level of competition. They follow standard chess regulations and provide a secure and user-friendly online platform for players to participate in the tournaments. Participants can enjoy the convenience of playing from the comfort of their own homes, eliminating the need for travel and making chess accessible to a wider audience.
+
+OntarioChess is committed to promoting the growth of chess in Ontario and beyond, and their online tournaments have become a popular and inclusive way for chess players to connect, compete, and improve their skills. With a passionate team of organizers and a supportive community of players, OntarioChess continues to raise the bar in organizing top-notch online chess tournaments for chess enthusiasts of all ages and levels of expertise. Whether you are a beginner or a seasoned player, OntarioChess welcomes you to join their online tournaments and be part of the vibrant chess community. Checkmate! So, if you're looking to challenge yourself and compete with other chess enthusiasts, OntarioChess is the organization to watch out for! So, come join OntarioChess and experience the thrill of online chess competitions from the comfort of your own home, whether you are from Ontario or beyond! Let the games begin!</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
