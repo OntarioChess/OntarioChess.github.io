@@ -1,9 +1,9 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
-
-Information
- project: Click Here To Register
-#  role: Founder & Primary Developer
-#  duration: 2012 &mdash; Present
- url: "https://www.chess.com/play/arena/2620856?action=undefined&clubId=494757"
- description: "Join us for the Spring Sprint 2023 chess tournament, hosted by OntarioChess! This exciting tournament is open to chess enthusiasts of all levels, from beginners to seasoned players. With a fast-paced time control and a thrilling knockout format, the Spring Sprint promises to be a high-energy event that will challenge your skills and push you to your limits. Compete against players from Ontario and beyond, and see if you have what it takes to emerge victorious. Register now and be a part of the action!"
+- project:
+    name: Click Here To Register
+#    role: Founder & Primary Developer
+#    duration: 2012 &mdash; Present
+    url: "https://www.chess.com/play/arena/2620856?action=undefined&clubId=494757"
+    description: |
+      Join us for the Spring Sprint 2023 chess tournament, hosted by OntarioChess! This exciting tournament is open to chess enthusiasts of all levels, from beginners to seasoned players. With a fast-paced time control and a thrilling knockout format, the Spring Sprint promises to be a high-energy event that will challenge your skills and push you to your limits. Compete against players from Ontario and beyond, and see if you have what it takes to emerge victorious. Register now and be a part of the action!
