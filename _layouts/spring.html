@@ -34,22 +34,16 @@
             <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
         </div>
-        
-      <!-- begin Projects -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Information + Registration</h2>
-        </header>
 
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
+        <div class="register-button">
+          <a href="https://ontariochess.is-an.app/spring-sprint.html" target="_blank">Register Here</a>
         </div>
-       
 
+        <div class="how-to-register">
+          <p>To register for the tournament, visit the registration link above and follow the instructions provided.</p>
+        </div>
 
+      </header>
 
   </body>
 
